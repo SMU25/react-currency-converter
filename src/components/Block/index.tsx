@@ -13,7 +13,7 @@ export const Block: FC<Props> = ({ children, value, onChangeValue }) => (
       onChange={({ target }: ChangeEvent<HTMLInputElement>) =>
         onChangeValue(Number(target.value))
       }
-      value={value === 0 ? "" : value}
+      value={value === 0 ? "" : Number(value.toFixed(4))}
       type="number"
       placeholder="0"
     />
