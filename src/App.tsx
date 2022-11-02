@@ -91,11 +91,11 @@ function App(): ReactElement {
 
   return (
     <div className="App">
-      <Block value={fromPrice} onChangeValue={onChangeFromPrice}>
-        <Currencies currency={fromCurrency} setCurrency={setFromCurrency} />
-      </Block>
       <Block value={toPrice} onChangeValue={onChangeToPrice}>
         <Currencies currency={toCurrency} setCurrency={setToCurrency} />
+      </Block>
+      <Block value={fromPrice} onChangeValue={onChangeFromPrice}>
+        <Currencies currency={fromCurrency} setCurrency={setFromCurrency} />
       </Block>
     </div>
   );
