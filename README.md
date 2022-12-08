@@ -1,4 +1,4 @@
-Deployed: [Currency Converter](https://react-app-currency-converter.herokuapp.com/)
+## Deployed: [Currency Converter](https://react-currency-converter-delta.vercel.app/)
 
 # Getting Started with Create React App
 
